@@ -1,0 +1,7 @@
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/alex-diasritter/demo-config-server.git
+          clone-on-start: true
